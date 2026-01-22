@@ -1,9 +1,9 @@
 #sorted
-capitales=["Paris","Londres","Pragues"]
+capitales=["Paris","Londres","Pragues","Vienne"]
 
 print("voici quelques capitales : ", capitales)
 
-position=input("entrez un chiffre entre 1 et 3 : ")
+position=input("entrez un chiffre entre 1 et 4 : ")
 classement=int(position) -1
 print(capitales[classement])
 
