@@ -1,0 +1,13 @@
+services:
+  oracle-TEST:
+    image: gvenzl/oracle-free:latest-faststart
+    hostname: oracle-free
+    ports:
+      - 1521:1521
+    environment:
+      - ORACLE_PASSWORD=azerty
+    volumes:
+      - oracle-volume-TEST:/opt/oracle/TEST
+
+volumes:
+  oracle-volume-TEST:
