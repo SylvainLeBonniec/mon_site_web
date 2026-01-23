@@ -1,5 +1,5 @@
 #sorted
-capitales=["Paris","Londres","Pragues","Vienne"]
+capitales=["Paris","Londres","Pragues","Vienne","Rome"]
 
 print("voici quelques capitales : ", capitales)
 
